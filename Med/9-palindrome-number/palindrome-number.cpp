@@ -1,5 +1,5 @@
 class Solution {
-public: //e
+public: 
     bool isPalindrome(int x) {
         long long y,val,z = x;
         if(x < 0)
