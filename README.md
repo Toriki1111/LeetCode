@@ -1,1 +1,1 @@
-This repo is for LettCode only
+This repo is for LeetCode only
