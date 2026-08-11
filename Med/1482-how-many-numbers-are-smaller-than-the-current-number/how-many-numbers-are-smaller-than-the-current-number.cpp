@@ -6,14 +6,14 @@ public:
         long long n = nums.size();
         vector<int> result(n,0);
         for(int i = 0; i < n ;i++)
-        {int count = 0;
+        {   
+            int count = 0;
             for(int j = 0; j < n; j++) {
                 if(nums[j] < nums[i]) {
                     count++;
                 }
         }
         result[i] = count;
-        
     }
     return result;
     }
